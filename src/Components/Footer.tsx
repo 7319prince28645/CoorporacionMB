@@ -32,8 +32,6 @@ function Footer() {
     }
   };
   
-  
-  
 
   return (
     <div id="contactos" className="section mt-8 w-full py-16 px-32 bg-[#263238] justify-between gap-[125px] inline-flex">

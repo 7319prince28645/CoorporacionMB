@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 
 function Navbar() {
   const [activeSection, setActiveSection] = useState("");
-  const [isScrolling, setIsScrolling] = useState(false); // Estado para manejar el scroll
 
   useEffect(() => {
     const observer = new IntersectionObserver(
