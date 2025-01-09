@@ -61,13 +61,13 @@ function Navbar() {
   };
 
   return (
-    <div className="sticky top-0 z-50 w-full h-[84px] bg-[#f5f7f9] flex items-center overflow-hidden shadow-md">
-      <div className="w-full justify-evenly items-center gap-[50px] inline-flex overflow-hidden">
+    <main className="sticky top-0 z-50 w-full h-[84px] bg-[#f5f7f9] flex items-center overflow-hidden shadow-md">
+      <section className="w-full justify-evenly items-center gap-[50px] inline-flex overflow-hidden">
         <a href="/">
           <img src={Logo} alt="Logo" className="w-[160px] h-16" />
         </a>
-        <div className="flex gap-16">
-          <div
+        <article className="flex gap-16">
+          <article
             className={`justify-start items-center gap-2.5 cursor-pointer flex ${getLinkClass(
               "home"
             )}`}
@@ -76,7 +76,7 @@ function Navbar() {
             <div className="text-base font-medium font-['Inter'] leading-normal">
               Home
             </div>
-          </div>
+          </article>
           <div
             className={`justify-start items-center gap-2.5 flex cursor-pointer ${getLinkClass(
               "clientes"
@@ -137,7 +137,7 @@ function Navbar() {
               Contactos
             </div>
           </div>
-        </div>
+        </article>
         <a
           href="https://coorporacionmonicaybeto.digitalmaiden.ibu.pe/ecommerce"
           target="_blank"
@@ -147,8 +147,8 @@ function Navbar() {
             Visitar Tienda
           </p>
         </a>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }
 

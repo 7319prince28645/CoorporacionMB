@@ -10,7 +10,7 @@ import OurClients from "./Components/OurClients";
 
 function App() {
   return (
-    <div>
+    <main>
       <Navbar/>
       <Banner/>
       <OurClients/>
@@ -19,7 +19,7 @@ function App() {
       <Caring/>
       <Customers/>
       <Footer/>
-    </div>
+    </main>
   );
 }
 
