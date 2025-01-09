@@ -1,0 +1,5 @@
+html, body {
+  scroll-behavior: smooth;
+  margin: 0; /* Esto elimina márgenes que pueden interferir */
+  padding: 0; /* También elimina el padding si lo tiene */
+}
